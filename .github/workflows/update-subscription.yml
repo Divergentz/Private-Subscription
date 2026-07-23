@@ -1,27 +1,35 @@
-name: Update private subscription
+name: Update subscription
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "7,37 * * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: update-private-subscription
+  group: update-subscription
   cancel-in-progress: true
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     env:
       SOURCE_URLS: ${{ secrets.SOURCE_URLS }}
+      OUTPUT_MAIN: divergentz.txt
+      OUTPUT_ALL: all-configs.txt
+      OUTPUT_REPORT: health-report.json
+      MAX_COLLECTED: "1000"
+      MAX_TESTED: "300"
+      MAX_WORKING: "100"
+      TEST_CONCURRENCY: "50"
+      CONNECT_TIMEOUT: "3"
 
     steps:
-      - name: Check out repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -33,21 +41,22 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --requirement requirements.txt
 
-      - name: Build subscription
+      - name: Collect and test configs
         run: python collector.py
 
-      - name: Commit changed output
+      - name: Commit generated files
         shell: bash
         run: |
           set -euo pipefail
           git config user.name "subscription-bot"
           git config user.email "subscription-bot@users.noreply.github.com"
-          git add sub.txt metadata.json
+
+          git add divergentz.txt all-configs.txt health-report.json sub.txt
 
           if git diff --cached --quiet; then
             echo "No changes."
             exit 0
           fi
 
-          git commit -m "Update subscription $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git commit -m "Update tested subscription $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
