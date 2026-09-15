@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-15T01:21:17.483204+00:00",
+  "generated_at_utc": "2026-09-15T06:36:58.357261+00:00",
   "note": "passed_tcp means only that the server host and port accepted a TCP connection from GitHub Actions. It does not prove that the full proxy protocol, authentication, TLS/Reality, or access from Iran works.",
   "settings": {
     "max_collected": 1000,
@@ -11,21 +11,21 @@
   "counts": {
     "sources": 3,
     "collected": 255,
-    "unique": 194,
-    "parsed": 194,
-    "tested": 194,
+    "unique": 193,
+    "parsed": 193,
+    "tested": 193,
     "passed_tcp": 100
   },
   "sources": [
     {
       "url": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
       "status": "ok",
-      "extracted": 40
+      "extracted": 41
     },
     {
       "url": "https://t.me/s/vpnfail_v2ray",
       "status": "ok",
-      "extracted": 20
+      "extracted": 19
     },
     {
       "url": "https://t.me/s/V2rayNG3",
@@ -35,145 +35,13 @@
   ],
   "configs": [
     {
-      "uri": "vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.39.182.161:22223?security=none&encryption=none&headerType=none&type=tcp#🌐",
+      "uri": "vless://f61025f4-7973-4e3e-883c-a0fe85f0489c@72.56.52.30:443?security=reality&encryption=none&pbk=OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=lv.rexten.cc#🌐",
       "protocol": "vless",
-      "host": "13.39.182.161",
-      "port": 22223,
-      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
-      "parse_status": "parsed",
-      "latency_ms": null,
-      "test_status": "connection_refused",
-      "error": "[Errno 111] Connect call failed ('13.39.182.161', 22223)"
-    },
-    {
-      "uri": "vless://11f21602-47aa-42e2-9149-69120f2e6df6@45.91.138.179:443?security=reality&encryption=none&pbk=36sTeaLdaAjQQxxzh492XihoPi2YxmttQyncmLuxYHE&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=us05.shifor01.life&sid=169fc2df88419465#🌐سرور",
-      "protocol": "vless",
-      "host": "45.91.138.179",
+      "host": "72.56.52.30",
       "port": 443,
       "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
       "parse_status": "parsed",
-      "latency_ms": 26.8,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "vless://01a21e01-6098-4c3b-a6fd-1a04d64d0c7f@84.32.186.112:443?security=reality&alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&encryption=none&pbk=naFxXMoZGp3dHSEMiupvt7FsYtnxONkSN90c2JLWl38&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=api37.betust.net&sid=974acf45#🌐سرور",
-      "protocol": "vless",
-      "host": "84.32.186.112",
-      "port": 443,
-      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
-      "parse_status": "parsed",
-      "latency_ms": 88.8,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "vless://ade65899-8d92-457f-ab9c-b7321f919838@188.137.234.78:38699?security=reality&encryption=none&pbk=1pN8v_MgmIE2YOgPYvCZTinV2aI4wqAQ6w4gXBN53Hk&headerType=none&fp=firefox&spx=%2F3d732b8b56413e5&type=tcp&sni=play-apps-features.googleusercontent.com&sid=a683bd1ccd0c#🌐سرور",
-      "protocol": "vless",
-      "host": "188.137.234.78",
-      "port": 38699,
-      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
-      "parse_status": "parsed",
-      "latency_ms": null,
-      "test_status": "timeout",
-      "error": null
-    },
-    {
-      "uri": "vless://abe21eae-96d8-41b0-8978-a5fad369f120@209.50.57.181:443?encryption=none&security=reality&type=tcp&headerType=none&flow=xtls-rprx-vision&sni=play-apps-features.googleusercontent.com&fp=ios&pbk=HJtC_S6DhF6u8qjmGaHOx5UOxKcr5ughwPwsPtK-KEk&sid=d97fdcb80bd7504b#🌐سرور",
-      "protocol": "vless",
-      "host": "209.50.57.181",
-      "port": 443,
-      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
-      "parse_status": "parsed",
-      "latency_ms": 25.3,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "ss://YWVzLTI1Ni1nY206Tm1VNFpHUTFOV1l4WlRjd1lqQXhOVGszTnpsbVpETTVPRFUwTkRJeQ@188.121.122.210:9112?prefix=%16%03%01%00%C2%A8%01%01#🌐سرور",
-      "protocol": "ss",
-      "host": "188.121.122.210",
-      "port": 9112,
-      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
-      "parse_status": "parsed",
-      "latency_ms": 164.5,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6emlYSERPRlhjNHFSam9q@20.107.184.151:443#🌐سرور",
-      "protocol": "ss",
-      "host": "20.107.184.151",
-      "port": 443,
-      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
-      "parse_status": "parsed",
-      "latency_ms": 80.6,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "vless://abe21eae-96d8-41b0-8978-a5fad369f120@94.237.7.155:443?encryption=none&security=reality&type=tcp&headerType=none&sni=play-apps-features.googleusercontent.com&fp=edge&pbk=fv-O6n2WrbcfxGexKnCD7V_XlSX3JEqUspCR5FoxpXY&sid=74a07ea1fdc748f4#🌐سرور",
-      "protocol": "vless",
-      "host": "94.237.7.155",
-      "port": 443,
-      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
-      "parse_status": "parsed",
-      "latency_ms": 91.0,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "vless://1157d32c-a56f-4070-a1a8-74c63b875d98@46.8.208.17:8443?security=reality&encryption=none&pbk=xEprpxcbj30lJZMfNWftPtiAmgrXTzRnnN3HFRtFfB4&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=max.ru&sid=f3c0f343a191#🌐سرور",
-      "protocol": "vless",
-      "host": "46.8.208.17",
-      "port": 8443,
-      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
-      "parse_status": "parsed",
-      "latency_ms": 123.9,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "vless://abe21eae-96d8-41b0-8978-a5fad369f120@153.52.92.95:8443?encryption=none&security=reality&type=tcp&headerType=none&sni=play-apps-features.googleusercontent.com&fp=edge&pbk=DET9igsW7PHEdVsR4neFD8EPJTBIxw2AGCYo_Poibno&sid=ac55ea67b95a4d3d#🌐سرور",
-      "protocol": "vless",
-      "host": "153.52.92.95",
-      "port": 8443,
-      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
-      "parse_status": "parsed",
-      "latency_ms": 121.7,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "vless://0fc3eba4-2774-4c99-cfc7-c38b007908b0@43.174.247.53:443?path=%2F55072%2Fapi&security=tls&encryption=none&insecure=0&host=aron.irandoc.info&fp=chrome&type=ws&allowInsecure=0&sni=sni.irandoc.info#🌐سرور",
-      "protocol": "vless",
-      "host": "43.174.247.53",
-      "port": 443,
-      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
-      "parse_status": "parsed",
-      "latency_ms": 145.9,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "vless://abe21eae-96d8-41b0-8978-a5fad369f120@87.120.106.181:8443?encryption=none&security=reality&type=tcp&headerType=none&sni=play-apps-features.googleusercontent.com&fp=edge&pbk=d5Qj3g1LfzIqIM4FlHijH4Kx1VOzocdX21a2xRTIy1o&sid=8de235d50b0786c5#🌐سرور",
-      "protocol": "vless",
-      "host": "87.120.106.181",
-      "port": 8443,
-      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
-      "parse_status": "parsed",
-      "latency_ms": 118.7,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.39.182.161:22224?security=none&encryption=none&headerType=none&type=tcp#🌐سرور",
-      "protocol": "vless",
-      "host": "13.39.182.161",
-      "port": 22224,
-      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
-      "parse_status": "parsed",
-      "latency_ms": 86.1,
+      "latency_ms": 135.6,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -184,172 +52,18 @@
       "port": 443,
       "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
       "parse_status": "parsed",
-      "latency_ms": 108.8,
+      "latency_ms": 132.2,
       "test_status": "passed_tcp",
       "error": null
     },
     {
-      "uri": "vless://4360f941-b541-43d4-8507-2de3763e0cfd@45.95.169.47:443?security=reality&encryption=none&pbk=8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=hr.convert-flow.net&sid=00a61d55a07de885#🌐سرور",
+      "uri": "vless://01a21e01-6098-4c3b-a6fd-1a04d64d0c7f@84.32.186.112:443?security=reality&alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&encryption=none&pbk=naFxXMoZGp3dHSEMiupvt7FsYtnxONkSN90c2JLWl38&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=api37.betust.net&sid=974acf45#🌐سرور",
       "protocol": "vless",
-      "host": "45.95.169.47",
+      "host": "84.32.186.112",
       "port": 443,
       "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
       "parse_status": "parsed",
-      "latency_ms": 114.9,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "vless://10fd9dfa-7e1c-481e-9693-ec962bed85c5@aa.cip-streaming.shop:2020?security=reality&encryption=none&pbk=01TmVsvbmbveLx8HyqYg04RidqRBZg3fUYLre4kG7Ao&headerType=none&fp=chrome&type=tcp&sni=jetbrains.com&sid=21e093a23ee93e47#🌐سرور",
-      "protocol": "vless",
-      "host": "aa.cip-streaming.shop",
-      "port": 2020,
-      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
-      "parse_status": "parsed",
-      "latency_ms": 184.4,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "vless://f61025f4-7973-4e3e-883c-a0fe85f0489c@72.56.52.30:443?security=reality&encryption=none&pbk=OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=lv.rexten.cc#🌐سرور",
-      "protocol": "vless",
-      "host": "72.56.52.30",
-      "port": 443,
-      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
-      "parse_status": "parsed",
-      "latency_ms": 116.2,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "vless://e15b340b-f1c8-4974-bfca-edc788959f24@49.13.19.156:28110?security=none&encryption=none&host=www.google.com&headerType=http&type=tcp#🌐سرور",
-      "protocol": "vless",
-      "host": "49.13.19.156",
-      "port": 28110,
-      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
-      "parse_status": "parsed",
-      "latency_ms": 92.8,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "vless://0435b4d2-5ab7-4873-81b9-ff7ad9d7a67c@145.63.139.40:23353?security=reality&encryption=none&pbk=GkVcEhd2eA7gqxBGKHqnkje6albyNVcuG01RIfZ5GS8&headerType=none&fp=firefox&spx=%2Fbb3a69abd125481&type=tcp&sni=play-apps-features.googleusercontent.com&sid=55e574bbea1a651a#🌐سرور",
-      "protocol": "vless",
-      "host": "145.63.139.40",
-      "port": 23353,
-      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
-      "parse_status": "parsed",
-      "latency_ms": null,
-      "test_status": "timeout",
-      "error": null
-    },
-    {
-      "uri": "vless://85d8f8d3-6af8-4eb8-9bb7-7bcd21cf053c@91.107.144.211:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=TIkdjXzDQ5RmrSB4r8QoStVHhQTNHX2fwm8izRQ07C0&security=reality&sid=511a&sni=storage.googleapis.com&spx=%2F9b8ygiTZYJ8j8Jg&type=tcp#🌐سرور",
-      "protocol": "vless",
-      "host": "91.107.144.211",
-      "port": 443,
-      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
-      "parse_status": "parsed",
-      "latency_ms": 91.4,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "trojan://MiTiVPN@167.82.76.7:443?path=%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2FNLSs---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN&security=tls&alpn=http%2F1.1&insecure=0&host=mitivpn---ss--s---mitivpn-33.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#🌐سرور",
-      "protocol": "trojan",
-      "host": "167.82.76.7",
-      "port": 443,
-      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
-      "parse_status": "parsed",
-      "latency_ms": 5.5,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.39.182.161:22222?security=none&encryption=none&headerType=none&type=tcp#🌐سرور",
-      "protocol": "vless",
-      "host": "13.39.182.161",
-      "port": 22222,
-      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
-      "parse_status": "parsed",
-      "latency_ms": 86.3,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "vless://afe143cb-76e2-4202-995d-da09f07b0cd9@www.speedtest.net:443?path=%2FeyJqdW5rIjoiN2pxZ1lxeHQyZ1dudjloIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ%3D%3D%3Fed%3D2560&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=ez-72da5d.ezaccess1ebe0e6.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=ez-72Da5d.eZAccEsS1eBE0E6.wOrkers.DeV#🌐سرور",
-      "protocol": "vless",
-      "host": "www.speedtest.net",
-      "port": 443,
-      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
-      "parse_status": "parsed",
-      "latency_ms": 121.0,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "vless://11f21602-47aa-42e2-9149-69120f2e6df6@31.56.184.132:8443?mode=gun&security=reality&encryption=none&pbk=bzbe7QdD633ew_Er1_YWEhuCEHWurmDpxpz3fRzXr0A&fp=firefox&type=grpc&serviceName=shiforgrpc&sni=cloudflare.com&sid=b4e3b0b55b8dc75b#🌐سرور",
-      "protocol": "vless",
-      "host": "31.56.184.132",
-      "port": 8443,
-      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
-      "parse_status": "parsed",
-      "latency_ms": 93.8,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "vless://a71ad164-3b29-4dbe-aa66-24d095ca7b6d@2.26.89.16:443?security=reality&encryption=none&pbk=NA5eMfdHkl_L80S75uxQwUirS9nvZ80V2u1s71KeXkc&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=assets-ms-35.ecom-ai-solutions.com&sid=2de63d3fd7261b7e#🌐سرور",
-      "protocol": "vless",
-      "host": "2.26.89.16",
-      "port": 443,
-      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
-      "parse_status": "parsed",
-      "latency_ms": 136.2,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@94.103.2.251:443?security=reality&encryption=none&pbk=a8huhMB5qb3Q0zYwG1QzPjSDTrXufkZMlADT-_EMPhc&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=io.ozone.ru&sid=00000000#🌐سرور",
-      "protocol": "vless",
-      "host": "94.103.2.251",
-      "port": 443,
-      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
-      "parse_status": "parsed",
-      "latency_ms": 122.2,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "trojan://eowr5vwm32wu3473@130.185.123.21:1819?type=tcp&security=none&headerType=none#🌐سرور",
-      "protocol": "trojan",
-      "host": "130.185.123.21",
-      "port": 1819,
-      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
-      "parse_status": "parsed",
-      "latency_ms": 90.9,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "vless://4d7d1add-0a51-4887-b10a-07c68df24f7e@sosk.sorix-home.ir:60231?security=&encryption=none&headerType=http&type=tcp#🌐سرور",
-      "protocol": "vless",
-      "host": "sosk.sorix-home.ir",
-      "port": 60231,
-      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
-      "parse_status": "parsed",
-      "latency_ms": null,
-      "test_status": "timeout",
-      "error": null
-    },
-    {
-      "uri": "vless://588de4e1-8d67-4d19-9850-f9f0f1a6a22c@194.77.69.26:25172?mode=auto&path=%2F&security=reality&pqv=6bdzV0o-8-mLjZRG_tnglDjlBtoTZLT1AcRCEsw-aTmgQuMS7aJ_Npl8qRbH8q8EB-5fLsO4t18_dzPy3VNRSXRfB4k2aZ5k8RabCX1yNtiuoI_h4nMck14as3K4rGjWq7UOQXrFEAZ6wpmyWh46vjKFiZS80hTnWCmbio8q3U6jmMMp8aC7mYWQbRTrBowDHDabPbXgZXmQXlmrKaRWHn1BJWRyV3C4UAsmkG5y-fTJoJrvX30olQvGcgdYJPhuD2TbAKxJBn_9nJKoV0-NDbf5KQGD-BFv2WQTatZpKh9l_Gkpf4OYxOTkdd7MZGp_IY6Osmg0H-x5E7t6v8dS8xNlJtFI2sm82_OVQtJiKgKNH2FoHmLjJc8JT3TfFY35pf9wXnTRsXv6Ofbkomf6Y-712qmF51yrQQgkMv7q50VDJSJU7Prv_YDNubaUQwbSH7GyDkjQfDDUO_EU-Jb4oIgFZK6B8w_EcgsP9Z7k1-Tsd7bzw0ywIKV7jVXysJn8UpGvJzLVkhduF2uwb5ewY9Qr_tsoXvIyfmLIX1G114BxXyHlY2KB-MNXmDpXz7m33vH-HGW721VL_e9zZ_I3S7wd-P6g0mvvqI5JC04bFuryuYIlxgBDxSouXYjCMOAYRHRxTGeiQYRkaP_t50YxO75Kbwr9B1P10g3q1OU422tr-jANEQYaslLSa4IBThJb1JuSy-Kx2itQVJkzDeJSWtqfGvanXkiywItkjkHbeLWNBKBhbH8-e5C-F4PAOaz2hUBFbm4aSH8UbF_E5x9iiSReMNAXP3nJjn02_GPZ5GH29dTsbA7ACBKbw9VppDdSrJ7zNSb-SswzNWNFPn-fTmH-tpi4ogbw1DfnttdKtvBXvjX7V1wi6JOLALLOkuOIkcSXF01MP7c0gOENDggRwmEBjZepkZ0yQtRvWJZBHd4krUIxWZOD7yvpCW64WY-FnmvMZZGYdUTIfGK1UCB9_O-2Mamt6jQx9J-QvNlA0mbM-FKHQp5971hR8pk2Y9fl8sYSP5VhUxYycwCEq38Ur7Lx8sTwjPLVNd4sCYg9Z8ZxCKCBu51BdKZ-j3gQ502Au0o25DA_GYtg6boeQFIo1tb7Mc8bzQ0fUEzJJ8iOrJoE63RhlRBghX-7mN_mA5xpseoNOTuoB_2Bgw1syv54ovH7gJPnpQAWiAnaBklnQdWn41CDfFrJtlz6WY3RqkVPCz8EXbrnH_aVCmGUbjEIPLxhvXlKGj5uoXEFDtJB9TW1639hnokweC3glysNfURQez6cRcH8s4EsJqVSLHJXDlB3SGW3bDlcJYg1wHppg0WYbBdchqmIv4K8afK_DPaBJOOEJ4C70Yq1RYz8yfQkQ8MDJFuGdXTmid25RBktv2627QBY4o-MrqRSourRSoA2fPq_6GV4JKzw01VllyatbM0IPWGTJ4zOKk6ZjTdiGmeujt5_IwZi9gaebAlF3SzoHjtGf8dAAw6bt2DdikcQLX1N0X3txl_s5t9HDxJc1vlNU2aWJkSIUIVT77XmAdGBf4PlQAasPVAhlpjRvF7cktJ2f54F82Hh41tikYzHw_9ozEwxuKdg3qH_ZCk9tRu6fz2m0Rt1vwWFPj4S2KNkElsrv9nB0ZdpOo9DvGSaASpK7GAXhLPf_BlvxiLKzjgo3itnjntDjE5wXwFte4ddFhnmCgj8H8o88KwAnkakVSTjdvrj3F9HDHe-A1Y7mh-HupKKDnLqlz2PphWz-Kxn_uGttLsfIDKdFGsoDzEoHYdlJgybJX6xHCedKuDuATPUD1Y17Ub3UwnOFqymvld4YUbkd-02f2qfvwN5OYPKHtZfCr10ceZhEIr_YJI2HC3an84EfK0SYSavnj6-NpIWekrleoAURJzPnAp5EEJl5EIQ4OwBvcUBtdvwGqGzJ6QFlqqfpFs_R-1ZoLhBAz3XswPmkprgjT9ti69wfo77YErwO0LS7j6EhuNmhxw-jKe1jyyLZPGyDleCLRt3akQYKtjwQ2AVC3nBI4uukY1MiufTxf7LIXAEsVYwmCxFXpFjeabDXXkXDjkgCf2ISJhsoWj9IirB502cLJAimv1roSXU6FbBpPlhFntm5fa36Ibl7TkXtuuMYiO3usi7wWrNkGtTdiHMvryqrj1GafSSqXZCPCEOcOu94afvMuhp1RA91YAk8LKONakKxII08rmTDknsLor-8OQV0Teu99kKF5mSv2V7ITJGrZccl1STcDdoyd2KsA9NW3DOCHLfK9oJ7Iimj9xrWKltm2MvFIQH7iL9fFt9smFq0NYeX5LVi-t5ct1FJPEopib9KOgTBTJs3tuk0Lr2FRPENM06PHqh3Bhx7y_OmxEWG625bYa5sh4JDthVN1Q1tD0guT-2q317pJG59g3Prt6cSyCI5HIQyIAPTc41-XRlCM5BRB4dsZ7uXg7PmtXbVwt8BBH3XSQGvDvYrJL436RA4TJpu_UtDka5_WLuLtqpAe9Esgb2dlKTtw_e75D0jk44SHgqmD8j1u7W9hB6X5KDTZ7O-J1u2ybxEYz6NgBv25CB1V98M3_2Pjun6YtomCxUw9OK_dgNDFOwQVPnBkXVHuRpQ4TonxA&encryption=mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.LDVExY-G21nx-H6vfpVRZh5XH01WNIbVdqZPh2hEcUw&pbk=ydE4xHmpenLvz8PAHQGX-JSlMoCRE1Zkdmw8y-mzyA0&fp=chrome&type=xhttp&flow=xtls-rprx-vision&sni=amp-api-edge.apps.apple.com&sid=5d592eb709967e19#🌐سرور",
-      "protocol": "vless",
-      "host": "194.77.69.26",
-      "port": 25172,
-      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
-      "parse_status": "parsed",
-      "latency_ms": 91.1,
+      "latency_ms": 119.8,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -365,46 +79,134 @@
       "error": null
     },
     {
-      "uri": "vless://2f35965a-9a9b-45fd-ba32-987296dfb6be@bg5.univesalsrv.com:443?mode=gun&security=reality&encryption=none&pbk=RDWvDEygSk1eyAQhIK95H9EteFbrS2d9JEjBrco54Bw&fp=chrome&type=grpc&serviceName=gw.v2.RelayService&sid=1a3102bb8e51399e#🌐سرور",
+      "uri": "vless://10fd9dfa-7e1c-481e-9693-ec962bed85c5@aa.cip-streaming.shop:2020?security=reality&encryption=none&pbk=01TmVsvbmbveLx8HyqYg04RidqRBZg3fUYLre4kG7Ao&headerType=none&fp=chrome&type=tcp&sni=jetbrains.com&sid=21e093a23ee93e47#🌐سرور",
       "protocol": "vless",
-      "host": "bg5.univesalsrv.com",
-      "port": 443,
+      "host": "aa.cip-streaming.shop",
+      "port": 2020,
       "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
       "parse_status": "parsed",
-      "latency_ms": 213.5,
+      "latency_ms": 232.0,
       "test_status": "passed_tcp",
       "error": null
     },
     {
-      "uri": "vless://2650433b-4ee1-3c57-e3a7-43c678e8068c@x4g-production-ea42.up.railway.app:443?path=%2Fws%2F2650433b-4ee1-3c57-e3a7-43c678e8068c&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=x4g-production-ea42.up.railway.app&fp=firefox&type=ws&allowInsecure=0&sni=x4g-production-ea42.up.railway.app#🌐سرور",
+      "uri": "vless://abe21eae-96d8-41b0-8978-a5fad369f120@209.50.57.181:443?encryption=none&security=reality&type=tcp&headerType=none&flow=xtls-rprx-vision&sni=play-apps-features.googleusercontent.com&fp=ios&pbk=HJtC_S6DhF6u8qjmGaHOx5UOxKcr5ughwPwsPtK-KEk&sid=d97fdcb80bd7504b#🌐سرور",
       "protocol": "vless",
-      "host": "x4g-production-ea42.up.railway.app",
+      "host": "209.50.57.181",
       "port": 443,
       "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
       "parse_status": "parsed",
-      "latency_ms": 23.3,
+      "latency_ms": 26.0,
       "test_status": "passed_tcp",
       "error": null
     },
     {
-      "uri": "vless://abe21eae-96d8-41b0-8978-a5fad369f120@85.9.203.136:443?encryption=none&security=reality&type=tcp&headerType=none&sni=region1.app-analytics-services-att.com&fp=edge&pbk=zlxjoBYH6l_6DctmBvFIhvvTIMXlnFmRGab1SfSGuA4&sid=50b0625f34715512#🌐سرور",
+      "uri": "vless://0435b4d2-5ab7-4873-81b9-ff7ad9d7a67c@145.63.139.40:23353?security=reality&encryption=none&pbk=GkVcEhd2eA7gqxBGKHqnkje6albyNVcuG01RIfZ5GS8&headerType=none&fp=firefox&spx=%2Fbb3a69abd125481&type=tcp&sni=play-apps-features.googleusercontent.com&sid=55e574bbea1a651a#🌐سرور",
       "protocol": "vless",
-      "host": "85.9.203.136",
+      "host": "145.63.139.40",
+      "port": 23353,
+      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
+      "parse_status": "parsed",
+      "latency_ms": null,
+      "test_status": "timeout",
+      "error": null
+    },
+    {
+      "uri": "vless://4d7d1add-0a51-4887-b10a-07c68df24f7e@sosk.sorix-home.ir:60231?security=&encryption=none&headerType=http&type=tcp#🌐سرور",
+      "protocol": "vless",
+      "host": "sosk.sorix-home.ir",
+      "port": 60231,
+      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
+      "parse_status": "parsed",
+      "latency_ms": null,
+      "test_status": "timeout",
+      "error": null
+    },
+    {
+      "uri": "vless://a71ad164-3b29-4dbe-aa66-24d095ca7b6d@2.26.89.16:443?security=reality&encryption=none&pbk=NA5eMfdHkl_L80S75uxQwUirS9nvZ80V2u1s71KeXkc&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=assets-ms-35.ecom-ai-solutions.com&sid=2de63d3fd7261b7e#🌐سرور",
+      "protocol": "vless",
+      "host": "2.26.89.16",
       "port": 443,
       "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
       "parse_status": "parsed",
-      "latency_ms": 93.3,
+      "latency_ms": 145.4,
       "test_status": "passed_tcp",
       "error": null
     },
     {
-      "uri": "vless://e95a9e0a-7633-4d87-aec9-f887ee87fb36@91.107.144.211:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=TIkdjXzDQ5RmrSB4r8QoStVHhQTNHX2fwm8izRQ07C0&security=reality&sid=b913c53c&sni=storage.googleapis.com&spx=%2FmUa6L8yivlvsKk9&type=tcp#🌐سرور",
+      "uri": "vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.39.182.161:22223?security=none&encryption=none&headerType=none&type=tcp#🌐سرور",
+      "protocol": "vless",
+      "host": "13.39.182.161",
+      "port": 22223,
+      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
+      "parse_status": "parsed",
+      "latency_ms": 111.4,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.39.182.161:22222?security=none&encryption=none&headerType=none&type=tcp#🌐سرور",
+      "protocol": "vless",
+      "host": "13.39.182.161",
+      "port": 22222,
+      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
+      "parse_status": "parsed",
+      "latency_ms": 117.7,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "vless://abe21eae-96d8-41b0-8978-a5fad369f120@94.237.7.155:443?encryption=none&security=reality&type=tcp&headerType=none&sni=play-apps-features.googleusercontent.com&fp=edge&pbk=fv-O6n2WrbcfxGexKnCD7V_XlSX3JEqUspCR5FoxpXY&sid=74a07ea1fdc748f4#🌐سرور",
+      "protocol": "vless",
+      "host": "94.237.7.155",
+      "port": 443,
+      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
+      "parse_status": "parsed",
+      "latency_ms": 112.2,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "vless://4360f941-b541-43d4-8507-2de3763e0cfd@45.95.169.47:443?security=reality&encryption=none&pbk=8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=hr.convert-flow.net&sid=00a61d55a07de885#🌐سرور",
+      "protocol": "vless",
+      "host": "45.95.169.47",
+      "port": 443,
+      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
+      "parse_status": "parsed",
+      "latency_ms": 144.2,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "vless://11f21602-47aa-42e2-9149-69120f2e6df6@45.91.138.179:443?security=reality&encryption=none&pbk=36sTeaLdaAjQQxxzh492XihoPi2YxmttQyncmLuxYHE&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=us05.shifor01.life&sid=169fc2df88419465#🌐سرور",
+      "protocol": "vless",
+      "host": "45.91.138.179",
+      "port": 443,
+      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
+      "parse_status": "parsed",
+      "latency_ms": 58.1,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "ss://YWVzLTI1Ni1nY206Tm1VNFpHUTFOV1l4WlRjd1lqQXhOVGszTnpsbVpETTVPRFUwTkRJeQ@188.121.122.210:9112?prefix=%16%03%01%00%C2%A8%01%01#🌐سرور",
+      "protocol": "ss",
+      "host": "188.121.122.210",
+      "port": 9112,
+      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
+      "parse_status": "parsed",
+      "latency_ms": 197.2,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "vless://85d8f8d3-6af8-4eb8-9bb7-7bcd21cf053c@91.107.144.211:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=TIkdjXzDQ5RmrSB4r8QoStVHhQTNHX2fwm8izRQ07C0&security=reality&sid=511a&sni=storage.googleapis.com&spx=%2F9b8ygiTZYJ8j8Jg&type=tcp#🌐سرور",
       "protocol": "vless",
       "host": "91.107.144.211",
       "port": 443,
       "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
       "parse_status": "parsed",
-      "latency_ms": 90.7,
+      "latency_ms": 129.3,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -415,7 +217,73 @@
       "port": 443,
       "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
       "parse_status": "parsed",
-      "latency_ms": 121.6,
+      "latency_ms": 176.8,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "vless://abe21eae-96d8-41b0-8978-a5fad369f120@85.9.203.136:443?encryption=none&security=reality&type=tcp&headerType=none&sni=region1.app-analytics-services-att.com&fp=edge&pbk=zlxjoBYH6l_6DctmBvFIhvvTIMXlnFmRGab1SfSGuA4&sid=50b0625f34715512#🌐سرور",
+      "protocol": "vless",
+      "host": "85.9.203.136",
+      "port": 443,
+      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
+      "parse_status": "parsed",
+      "latency_ms": 118.0,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "vless://2f35965a-9a9b-45fd-ba32-987296dfb6be@150.40.126.24:443?mode=gun&security=reality&encryption=none&authority=%2F%3FTELEGRAM--MARAMBASHI--MARAMBASHI&pbk=X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE&fp=firefox&type=grpc&serviceName=gw.v1.ObjectService&sni=rs5.univesalsrv.com&sid=4872856d5489c37d#🌐سرور",
+      "protocol": "vless",
+      "host": "150.40.126.24",
+      "port": 443,
+      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
+      "parse_status": "parsed",
+      "latency_ms": 148.1,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "vless://2f35965a-9a9b-45fd-ba32-987296dfb6be@bg5.univesalsrv.com:443?mode=gun&security=reality&encryption=none&pbk=RDWvDEygSk1eyAQhIK95H9EteFbrS2d9JEjBrco54Bw&fp=chrome&type=grpc&serviceName=gw.v2.RelayService&sid=1a3102bb8e51399e#🌐سرور",
+      "protocol": "vless",
+      "host": "bg5.univesalsrv.com",
+      "port": 443,
+      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
+      "parse_status": "parsed",
+      "latency_ms": 273.1,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6emlYSERPRlhjNHFSam9q@20.107.184.151:443#🌐سرور",
+      "protocol": "ss",
+      "host": "20.107.184.151",
+      "port": 443,
+      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
+      "parse_status": "parsed",
+      "latency_ms": 95.8,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "vless://2650433b-4ee1-3c57-e3a7-43c678e8068c@x4g-production-ea42.up.railway.app:443?path=%2Fws%2F2650433b-4ee1-3c57-e3a7-43c678e8068c&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=x4g-production-ea42.up.railway.app&fp=firefox&type=ws&allowInsecure=0&sni=x4g-production-ea42.up.railway.app#🌐سرور",
+      "protocol": "vless",
+      "host": "x4g-production-ea42.up.railway.app",
+      "port": 443,
+      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
+      "parse_status": "parsed",
+      "latency_ms": 115.6,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "vless://e95a9e0a-7633-4d87-aec9-f887ee87fb36@91.107.144.211:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=TIkdjXzDQ5RmrSB4r8QoStVHhQTNHX2fwm8izRQ07C0&security=reality&sid=b913c53c&sni=storage.googleapis.com&spx=%2FmUa6L8yivlvsKk9&type=tcp#🌐سرور",
+      "protocol": "vless",
+      "host": "91.107.144.211",
+      "port": 443,
+      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
+      "parse_status": "parsed",
+      "latency_ms": 131.0,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -426,15 +294,191 @@
       "port": 443,
       "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
       "parse_status": "parsed",
-      "latency_ms": 115.4,
+      "latency_ms": 160.1,
       "test_status": "passed_tcp",
       "error": null
     },
     {
-      "uri": "vless://b96d18f1-eb38-47e9-ae79-42e78fcc0ff8@kia.ipsafe2.site:24329?security=&encryption=none&host=play.google.com&headerType=http&type=tcp#canfingV2rayNG-288",
+      "uri": "vless://0fc3eba4-2774-4c99-cfc7-c38b007908b0@43.174.247.53:443?path=%2F55072%2Fapi&security=tls&encryption=none&insecure=0&host=aron.irandoc.info&fp=chrome&type=ws&allowInsecure=0&sni=sni.irandoc.info#🌐سرور",
       "protocol": "vless",
-      "host": "kia.ipsafe2.site",
-      "port": 24329,
+      "host": "43.174.247.53",
+      "port": 443,
+      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
+      "parse_status": "parsed",
+      "latency_ms": 188.8,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "vless://11f21602-47aa-42e2-9149-69120f2e6df6@31.56.184.132:8443?mode=gun&security=reality&encryption=none&pbk=bzbe7QdD633ew_Er1_YWEhuCEHWurmDpxpz3fRzXr0A&fp=firefox&type=grpc&serviceName=shiforgrpc&sni=cloudflare.com&sid=b4e3b0b55b8dc75b#🌐سرور",
+      "protocol": "vless",
+      "host": "31.56.184.132",
+      "port": 8443,
+      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
+      "parse_status": "parsed",
+      "latency_ms": 120.0,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "vless://abe21eae-96d8-41b0-8978-a5fad369f120@87.120.106.181:8443?encryption=none&security=reality&type=tcp&headerType=none&sni=play-apps-features.googleusercontent.com&fp=edge&pbk=d5Qj3g1LfzIqIM4FlHijH4Kx1VOzocdX21a2xRTIy1o&sid=8de235d50b0786c5#🌐سرور",
+      "protocol": "vless",
+      "host": "87.120.106.181",
+      "port": 8443,
+      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
+      "parse_status": "parsed",
+      "latency_ms": 154.9,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "vless://abe21eae-96d8-41b0-8978-a5fad369f120@153.52.92.95:8443?encryption=none&security=reality&type=tcp&headerType=none&sni=play-apps-features.googleusercontent.com&fp=edge&pbk=DET9igsW7PHEdVsR4neFD8EPJTBIxw2AGCYo_Poibno&sid=ac55ea67b95a4d3d#🌐سرور",
+      "protocol": "vless",
+      "host": "153.52.92.95",
+      "port": 8443,
+      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
+      "parse_status": "parsed",
+      "latency_ms": 153.1,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "vless://afe143cb-76e2-4202-995d-da09f07b0cd9@www.speedtest.net:443?path=%2FeyJqdW5rIjoiN2pxZ1lxeHQyZ1dudjloIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ%3D%3D%3Fed%3D2560&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=ez-72da5d.ezaccess1ebe0e6.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=ez-72Da5d.eZAccEsS1eBE0E6.wOrkers.DeV#🌐سرور",
+      "protocol": "vless",
+      "host": "www.speedtest.net",
+      "port": 443,
+      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
+      "parse_status": "parsed",
+      "latency_ms": 124.0,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.39.182.161:22224?security=none&encryption=none&headerType=none&type=tcp#🌐سرور",
+      "protocol": "vless",
+      "host": "13.39.182.161",
+      "port": 22224,
+      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
+      "parse_status": "parsed",
+      "latency_ms": 116.0,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "trojan://eowr5vwm32wu3473@130.185.123.21:1819?type=tcp&security=none&headerType=none#🌐سرور",
+      "protocol": "trojan",
+      "host": "130.185.123.21",
+      "port": 1819,
+      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
+      "parse_status": "parsed",
+      "latency_ms": null,
+      "test_status": "connection_refused",
+      "error": "[Errno 111] Connect call failed ('130.185.123.21', 1819)"
+    },
+    {
+      "uri": "trojan://MiTiVPN@167.82.76.7:443?path=%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2FNLSs---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN&security=tls&alpn=http%2F1.1&insecure=0&host=mitivpn---ss--s---mitivpn-33.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#🌐سرور",
+      "protocol": "trojan",
+      "host": "167.82.76.7",
+      "port": 443,
+      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
+      "parse_status": "parsed",
+      "latency_ms": 13.2,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@94.103.2.251:443?security=reality&encryption=none&pbk=a8huhMB5qb3Q0zYwG1QzPjSDTrXufkZMlADT-_EMPhc&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=io.ozone.ru&sid=00000000#🌐سرور",
+      "protocol": "vless",
+      "host": "94.103.2.251",
+      "port": 443,
+      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
+      "parse_status": "parsed",
+      "latency_ms": 150.3,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "vless://588de4e1-8d67-4d19-9850-f9f0f1a6a22c@194.77.69.26:25172?mode=auto&path=%2F&security=reality&pqv=6bdzV0o-8-mLjZRG_tnglDjlBtoTZLT1AcRCEsw-aTmgQuMS7aJ_Npl8qRbH8q8EB-5fLsO4t18_dzPy3VNRSXRfB4k2aZ5k8RabCX1yNtiuoI_h4nMck14as3K4rGjWq7UOQXrFEAZ6wpmyWh46vjKFiZS80hTnWCmbio8q3U6jmMMp8aC7mYWQbRTrBowDHDabPbXgZXmQXlmrKaRWHn1BJWRyV3C4UAsmkG5y-fTJoJrvX30olQvGcgdYJPhuD2TbAKxJBn_9nJKoV0-NDbf5KQGD-BFv2WQTatZpKh9l_Gkpf4OYxOTkdd7MZGp_IY6Osmg0H-x5E7t6v8dS8xNlJtFI2sm82_OVQtJiKgKNH2FoHmLjJc8JT3TfFY35pf9wXnTRsXv6Ofbkomf6Y-712qmF51yrQQgkMv7q50VDJSJU7Prv_YDNubaUQwbSH7GyDkjQfDDUO_EU-Jb4oIgFZK6B8w_EcgsP9Z7k1-Tsd7bzw0ywIKV7jVXysJn8UpGvJzLVkhduF2uwb5ewY9Qr_tsoXvIyfmLIX1G114BxXyHlY2KB-MNXmDpXz7m33vH-HGW721VL_e9zZ_I3S7wd-P6g0mvvqI5JC04bFuryuYIlxgBDxSouXYjCMOAYRHRxTGeiQYRkaP_t50YxO75Kbwr9B1P10g3q1OU422tr-jANEQYaslLSa4IBThJb1JuSy-Kx2itQVJkzDeJSWtqfGvanXkiywItkjkHbeLWNBKBhbH8-e5C-F4PAOaz2hUBFbm4aSH8UbF_E5x9iiSReMNAXP3nJjn02_GPZ5GH29dTsbA7ACBKbw9VppDdSrJ7zNSb-SswzNWNFPn-fTmH-tpi4ogbw1DfnttdKtvBXvjX7V1wi6JOLALLOkuOIkcSXF01MP7c0gOENDggRwmEBjZepkZ0yQtRvWJZBHd4krUIxWZOD7yvpCW64WY-FnmvMZZGYdUTIfGK1UCB9_O-2Mamt6jQx9J-QvNlA0mbM-FKHQp5971hR8pk2Y9fl8sYSP5VhUxYycwCEq38Ur7Lx8sTwjPLVNd4sCYg9Z8ZxCKCBu51BdKZ-j3gQ502Au0o25DA_GYtg6boeQFIo1tb7Mc8bzQ0fUEzJJ8iOrJoE63RhlRBghX-7mN_mA5xpseoNOTuoB_2Bgw1syv54ovH7gJPnpQAWiAnaBklnQdWn41CDfFrJtlz6WY3RqkVPCz8EXbrnH_aVCmGUbjEIPLxhvXlKGj5uoXEFDtJB9TW1639hnokweC3glysNfURQez6cRcH8s4EsJqVSLHJXDlB3SGW3bDlcJYg1wHppg0WYbBdchqmIv4K8afK_DPaBJOOEJ4C70Yq1RYz8yfQkQ8MDJFuGdXTmid25RBktv2627QBY4o-MrqRSourRSoA2fPq_6GV4JKzw01VllyatbM0IPWGTJ4zOKk6ZjTdiGmeujt5_IwZi9gaebAlF3SzoHjtGf8dAAw6bt2DdikcQLX1N0X3txl_s5t9HDxJc1vlNU2aWJkSIUIVT77XmAdGBf4PlQAasPVAhlpjRvF7cktJ2f54F82Hh41tikYzHw_9ozEwxuKdg3qH_ZCk9tRu6fz2m0Rt1vwWFPj4S2KNkElsrv9nB0ZdpOo9DvGSaASpK7GAXhLPf_BlvxiLKzjgo3itnjntDjE5wXwFte4ddFhnmCgj8H8o88KwAnkakVSTjdvrj3F9HDHe-A1Y7mh-HupKKDnLqlz2PphWz-Kxn_uGttLsfIDKdFGsoDzEoHYdlJgybJX6xHCedKuDuATPUD1Y17Ub3UwnOFqymvld4YUbkd-02f2qfvwN5OYPKHtZfCr10ceZhEIr_YJI2HC3an84EfK0SYSavnj6-NpIWekrleoAURJzPnAp5EEJl5EIQ4OwBvcUBtdvwGqGzJ6QFlqqfpFs_R-1ZoLhBAz3XswPmkprgjT9ti69wfo77YErwO0LS7j6EhuNmhxw-jKe1jyyLZPGyDleCLRt3akQYKtjwQ2AVC3nBI4uukY1MiufTxf7LIXAEsVYwmCxFXpFjeabDXXkXDjkgCf2ISJhsoWj9IirB502cLJAimv1roSXU6FbBpPlhFntm5fa36Ibl7TkXtuuMYiO3usi7wWrNkGtTdiHMvryqrj1GafSSqXZCPCEOcOu94afvMuhp1RA91YAk8LKONakKxII08rmTDknsLor-8OQV0Teu99kKF5mSv2V7ITJGrZccl1STcDdoyd2KsA9NW3DOCHLfK9oJ7Iimj9xrWKltm2MvFIQH7iL9fFt9smFq0NYeX5LVi-t5ct1FJPEopib9KOgTBTJs3tuk0Lr2FRPENM06PHqh3Bhx7y_OmxEWG625bYa5sh4JDthVN1Q1tD0guT-2q317pJG59g3Prt6cSyCI5HIQyIAPTc41-XRlCM5BRB4dsZ7uXg7PmtXbVwt8BBH3XSQGvDvYrJL436RA4TJpu_UtDka5_WLuLtqpAe9Esgb2dlKTtw_e75D0jk44SHgqmD8j1u7W9hB6X5KDTZ7O-J1u2ybxEYz6NgBv25CB1V98M3_2Pjun6YtomCxUw9OK_dgNDFOwQVPnBkXVHuRpQ4TonxA&encryption=mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.LDVExY-G21nx-H6vfpVRZh5XH01WNIbVdqZPh2hEcUw&pbk=ydE4xHmpenLvz8PAHQGX-JSlMoCRE1Zkdmw8y-mzyA0&fp=chrome&type=xhttp&flow=xtls-rprx-vision&sni=amp-api-edge.apps.apple.com&sid=5d592eb709967e19#🌐سرور",
+      "protocol": "vless",
+      "host": "194.77.69.26",
+      "port": 25172,
+      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
+      "parse_status": "parsed",
+      "latency_ms": 128.3,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "vless://e15b340b-f1c8-4974-bfca-edc788959f24@49.13.19.156:28110?security=none&encryption=none&host=www.google.com&headerType=http&type=tcp#🌐سرور",
+      "protocol": "vless",
+      "host": "49.13.19.156",
+      "port": 28110,
+      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
+      "parse_status": "parsed",
+      "latency_ms": 127.1,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "vless://1157d32c-a56f-4070-a1a8-74c63b875d98@46.8.208.17:8443?security=reality&encryption=none&pbk=xEprpxcbj30lJZMfNWftPtiAmgrXTzRnnN3HFRtFfB4&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=max.ru&sid=f3c0f343a191#🌐سرور",
+      "protocol": "vless",
+      "host": "46.8.208.17",
+      "port": 8443,
+      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
+      "parse_status": "parsed",
+      "latency_ms": 148.6,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "vless://ade65899-8d92-457f-ab9c-b7321f919838@188.137.234.78:38699?security=reality&encryption=none&pbk=1pN8v_MgmIE2YOgPYvCZTinV2aI4wqAQ6w4gXBN53Hk&headerType=none&fp=firefox&spx=%2F3d732b8b56413e5&type=tcp&sni=play-apps-features.googleusercontent.com&sid=a683bd1ccd0c#🌐سرور",
+      "protocol": "vless",
+      "host": "188.137.234.78",
+      "port": 38699,
+      "source": "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
+      "parse_status": "parsed",
+      "latency_ms": null,
+      "test_status": "timeout",
+      "error": null
+    },
+    {
+      "uri": "trojan://MiTiVPN@167.82.76.7:443?path=%40mehrosaboran&security=tls&alpn=http%2F1.1&insecure=0&host=mitivpn---ss--s---mitivpn-33.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#canfingV2rayNG-25",
+      "protocol": "trojan",
+      "host": "167.82.76.7",
+      "port": 443,
+      "source": "https://t.me/s/vpnfail_v2ray",
+      "parse_status": "parsed",
+      "latency_ms": 16.6,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "vless://d6b59299-2f48-4e9b-9130-b9e9cb5d0a51@31.76.60.110:443?security=reality&encryption=none&pbk=V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=uk1.hat.onl&sid=76132b3b39704c44#filembad-352",
+      "protocol": "vless",
+      "host": "31.76.60.110",
+      "port": 443,
+      "source": "https://t.me/s/vpnfail_v2ray",
+      "parse_status": "parsed",
+      "latency_ms": null,
+      "test_status": "timeout",
+      "error": null
+    },
+    {
+      "uri": "vless://5d779e52-6043-88aa-4b22-870ea7215e29@77.221.153.200:2054?headerType=none&host=play.google.com&type=tcp&security=none&encryption=none#filembad-182",
+      "protocol": "vless",
+      "host": "77.221.153.200",
+      "port": 2054,
+      "source": "https://t.me/s/vpnfail_v2ray",
+      "parse_status": "parsed",
+      "latency_ms": null,
+      "test_status": "connection_refused",
+      "error": "[Errno 111] Connect call failed ('77.221.153.200', 2054)"
+    },
+    {
+      "uri": "vless://c34c6869-e454-4413-a7b2-052ba4a42fd5@uvgl4cjd0475.vtret.com:32567?encryption=mlkem768x25519plus.native.0rtt.84_DMC6q55hqCTwXssF177Z61CfqlI5CwYzYF6UGgG8&flow=xtls-rprx-vision&security=tls&sni=uvgl4cjd0475.vtret.com&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=tcp&headerType=none#canfingV2rayNG-302",
+      "protocol": "vless",
+      "host": "uvgl4cjd0475.vtret.com",
+      "port": 32567,
       "source": "https://t.me/s/vpnfail_v2ray",
       "parse_status": "parsed",
       "latency_ms": null,
@@ -442,40 +486,73 @@
       "error": "[Errno -2] Name or service not known"
     },
     {
-      "uri": "vless://f106648e-0644-40bc-974c-6edc966fe18d@45.130.125.162:8443?mode=auto&path=%2F%3Fed%3D2053&security=tls&alpn=h3%2Ch2&encryption=none&insecure=0&fp=chrome&type=xhttp&allowInsecure=0&sni=cji.new-persian-song.ir#canfingV2rayNG-416",
+      "uri": "vless://994377e5-b6d1-445e-9497-8dc74c3e91ec@gr2s.starzone.ir:8735?security=reality&encryption=none&pbk=NpgXDQ6jl_HGPdHAHFeiBl5Ym7bywxmw_EYovmFjVQs&headerType=none&fp=edge&type=tcp&sni=play-apps-features.googleusercontent.com&sid=6115f6a9eb8467c6#filembad-238",
       "protocol": "vless",
-      "host": "45.130.125.162",
-      "port": 8443,
+      "host": "gr2s.starzone.ir",
+      "port": 8735,
       "source": "https://t.me/s/vpnfail_v2ray",
       "parse_status": "parsed",
-      "latency_ms": 6.2,
+      "latency_ms": 537.1,
       "test_status": "passed_tcp",
       "error": null
     },
     {
-      "uri": "vless://2f35965a-9a9b-45fd-ba32-987296dfb6be@45.9.156.24:443?mode=gun&security=reality&encryption=none&authority=%2F%3FTELEGRAM%40TOOTFFARANGI&pbk=0f0dh_FUju5cHgQcIwUjHvxQb9aIZ00p0kZRHeE7Ey4&fp=chrome&type=grpc&serviceName=api.v2.PushService&sni=bg2.univesalsrv.com&sid=501ab3325b77e1ca#filembad-127",
+      "uri": "vless://05caca6c-9e97-4c0f-8edf-7b88a6e572c5@mypanel.unixzone.us:12068?path=%2F&security=&encryption=none&host=mypanel.unixzone.us&type=ws#canfingV2rayNG-62",
       "protocol": "vless",
-      "host": "45.9.156.24",
+      "host": "mypanel.unixzone.us",
+      "port": 12068,
+      "source": "https://t.me/s/vpnfail_v2ray",
+      "parse_status": "parsed",
+      "latency_ms": 186.6,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "vless://14b48651-3738-4926-bc09-4c04e87ff80b@static.lotussec.com:443?mode=stream-one&path=%2FJoin-JavidnamanIran-on-Telegram&security=tls&alpn=h2&encryption=none&insecure=0&host=static.lotussec.com&fp=firefox&type=xhttp&allowInsecure=0&sni=static.lotussec.com#canfingV2rayNG-97",
+      "protocol": "vless",
+      "host": "static.lotussec.com",
       "port": 443,
       "source": "https://t.me/s/vpnfail_v2ray",
       "parse_status": "parsed",
-      "latency_ms": 131.3,
-      "test_status": "passed_tcp",
+      "latency_ms": null,
+      "test_status": "timeout",
       "error": null
     },
     {
-      "uri": "vless://d6b59299-2f48-4e9b-9130-b9e9cb5d0a51@64.188.80.82:443?security=reality&encryption=none&pbk=V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fi1.hat.onl&sid=76132b3b39704c44#filembad-366",
+      "uri": "vless://d6b59299-2f48-4e9b-9130-b9e9cb5d0a51@31.76.101.16:443?security=reality&alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&encryption=none&pbk=nuqkgfdRafYszLg1SzFgXlQkTu0OdV4tes4WTjjcpkI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=mx42.hat.onl&sid=414f66403b9f0673#filembad-343",
       "protocol": "vless",
-      "host": "64.188.80.82",
+      "host": "31.76.101.16",
       "port": 443,
       "source": "https://t.me/s/vpnfail_v2ray",
       "parse_status": "parsed",
-      "latency_ms": 117.0,
+      "latency_ms": 129.4,
       "test_status": "passed_tcp",
       "error": null
     },
     {
-      "uri": "vless://0435b4d2-5ab7-4873-81b9-ff7ad9d7a67c@145.63.139.40:23353?encryption=none&fp=firefox&pbk=GkVcEhd2eA7gqxBGKHqnkje6albyNVcuG01RIfZ5GS8&security=reality&sid=55e574bbea1a651a&sni=play-apps-features.googleusercontent.com&spx=%2Fbb3a69abd125481&type=tcp#filembad-54",
+      "uri": "vless://d6b59299-2f48-4e9b-9130-b9e9cb5d0a51@2.26.93.130:443?security=reality&encryption=none&pbk=0q-auqEPBR3lETnoHLdm7OVbM0DWZQq74z_JV7WznUk&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=se1.hat.onl&sid=ff25c7e7c95baabf#filembad-338",
+      "protocol": "vless",
+      "host": "2.26.93.130",
+      "port": 443,
+      "source": "https://t.me/s/vpnfail_v2ray",
+      "parse_status": "parsed",
+      "latency_ms": 152.8,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "vless://59ad4ebd-ccb2-4399-a779-add3b2c74639@5.75.207.199:56539?security=none&encryption=mlkem768x25519plus.random.0rtt.swY_aKEuuHUHKO0BHVV2uot-UFbtrXpLWr7g8uZk0xk&headerType=http&type=tcp#ProxyMtpVPN-180",
+      "protocol": "vless",
+      "host": "5.75.207.199",
+      "port": 56539,
+      "source": "https://t.me/s/vpnfail_v2ray",
+      "parse_status": "parsed",
+      "latency_ms": null,
+      "test_status": "timeout",
+      "error": null
+    },
+    {
+      "uri": "vless://0435b4d2-5ab7-4873-81b9-ff7ad9d7a67c@145.63.139.40:23353?security=reality&encryption=none&pbk=GkVcEhd2eA7gqxBGKHqnkje6albyNVcuG01RIfZ5GS8&host=%2F%3FTELEGRAM--MARAMBASHI--MARAMBASHI&headerType=none&fp=firefox&spx=%2Fbb3a69abd125481&type=tcp&sni=play-apps-features.googleusercontent.com&sid=55e574bbea1a651a#filembad-61",
       "protocol": "vless",
       "host": "145.63.139.40",
       "port": 23353,
@@ -486,10 +563,10 @@
       "error": null
     },
     {
-      "uri": "vless://00726276-f581-4815-8610-ba373a65f00d@212.43.150.30:37684?encryption=none&security=reality&sni=play-apps-features.googleusercontent.com&fp=firefox&pbk=UJXmL43l_agBd7hYNJCKVlvCtkT-oDBMQ0sjlOOxg1Y&sid=f9&spx=%2F9853684c8214f66&type=tcp&headerType=none#filembad-45",
+      "uri": "vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.254.51:22222?security=&encryption=none&headerType=none&type=tcp#filembad-383",
       "protocol": "vless",
-      "host": "212.43.150.30",
-      "port": 37684,
+      "host": "35.181.254.51",
+      "port": 22222,
       "source": "https://t.me/s/vpnfail_v2ray",
       "parse_status": "parsed",
       "latency_ms": null,
@@ -497,20 +574,9 @@
       "error": null
     },
     {
-      "uri": "vless://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@104.16.72.41:443?path=%2Frsedgws&security=tls&encryption=none&insecure=0&host=shegeftihaaa.net&type=ws&allowInsecure=0&sni=shegeftihaaa.net#canfingV2rayNG-223",
+      "uri": "vless://26acab49-7cf6-489a-924d-7fae7b643f5a@ar4nh.sannest.ir:443?security=&encryption=none&host=play.google.com&headerType=http&type=tcp#canfingV2rayNG-116",
       "protocol": "vless",
-      "host": "104.16.72.41",
-      "port": 443,
-      "source": "https://t.me/s/vpnfail_v2ray",
-      "parse_status": "parsed",
-      "latency_ms": 6.0,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "vless://943b1d92-eae3-4cf2-b609-1e256d6d2ead@gr3ui.plasdomain.ir:443?security=reality&pqv=sqpCQ4vsVolGx1wzESoQ3hUyGgNOvry-9h1WevZs3NRlx7GdBo_MIguTTVieuvCGAcbcX19BUkxwIhYVP5TaG9blkIUrFYBbiml9rZnioA08njUGnSL_sQTUlFqy3TrkH7anFfeoTVicRw8zVFcUvp2SqyKkm0wypCOUCLT868NyvAqfCUY_8Lt3QrzQ_ImlfDFrk68Qb29AdlPK_D2YD7icp-hDfNcSWzGoPHBNT0mZS0fH7pbTckKCEEp8ypRkDHBarE3zoBYRfOb2wIHdKtHuXJ4SorgE2MTvN2ZnRLaMMX22X_xU0lpfWYymXq81Z7uJtEkNEE4wdjACk7_AawfcupFOy0_kHAwzHqiBGr85Mg-HIcb5OU1lcumwsB4xAPtudVeRxvNqHNPETBMb4OOBlnd4uCkW0kZAOYngqi94HEndSPlCb23k1024rzpw4LkYQa7g7H1ildlfiR87emqlZ2tfGqo56vpeI6DvxmbJscLMBB9bnGcUUJkoL0H7pAZNPnUC4aSkzaoZpUJr6r14HfeTOnRcReLIN5ollm404aCT1gT4itvHDSs4P3p7OVYxGy9hJN4Tz1UuWKHU8oBeomllmC-H7ueInkpYW1oU3gYJ8yRbjdPXIGG8-a2jIFr-jzLc-U0Gd7AQ1anqilQdk46Uk4pgk7K4OAGun7Nli3p-ZtoKNvHbawVc8JQKcdjNP9nYWOyt_hDObtvJoli3Px8r-0peljVNv-XBq3_58kJYswitPPPtGnYnB3Qq-3dA5a_47E5cawDQzrtrX12Eb_CZzXok6s3_dV-9DDv1zp-q1IQexYYqYe1iGz57CB2Qa-SD332UAK9rPSTIkFqxByh9NOEL9H7xWKZUQWJfmCtKAYsshppuquVW9WRS6OJCVZD95G992cPerY0DMK3G25BpE_VxGKO2jVe3UakuYbv7wYdJaIacnJfzQMO_p9fZBGNlVg60b_aINvnpomPl16nuwTuvEy6u0ecWqjHZLusg6G6YL5DomixLHicn2UWfTS5aFQQMzPAyIk_V9goeXE28jIKbsqu0aomDBOQG4VZGV5Z7PbZY7g4RCd33xPaCTIJtI4mZjC9wDDkYONmVWIK3rIX4N_xnGeq766GXmK91wfnK4aK1WFscVh-Vc8Zr_SfS53qYe7LhjJ-64_iME6oVH1hbs-RuYO46hm1MhhDG8T364EWk1hoS-MGRC5OSG2xCZBY6U1_r5c_8oFq0tWEypWebVNSdEu8-55cNKwGN6ytuR6yXqBl6QK9UJl2rI8yeMsJ98H71pexnH_wmBpzInsO68WlNq-dlI3yDGqrgooR23cmz2Fz_xOxwz2UyHd_ytjFX5q14X0xX3YOG79vn__kuX1ZZznGtlGv-Ku_kygSndLiRXlnxp9gt_aIEH5FwUUW9-hz0LMjI_E71BaT6N4twMrHqPbSw3egP5nc9NRlqkb6RwJHfdhq7IDxopmxvvz7P-Dqau7Mxqm4ZJclhtTYUQai5fnTrlDQsjJgbzanrBg44Jab3U42kBhuWtiCaOcvERMVcfyG0bN4TOjrUgLp5vKhz5pNp-_T2qRAvn1baDrvt7DiLgH-B0hxyjtPHEKl3zAUBM9jqXl16be8YgoMtvF9IMESNxTc92eEpQENQzCVMT0xOS11rsAzba6M8BKzjc1mJAq_5SJ8u0WpBCGPUBzWiQ58lH4Vzurxn0e9LQy3U3OfqZ2vVcaSDp3_ZWlJWwOFAOZrAwjZX0yyR5xO_9e-3RxwpZ1MwfDOO4dhlTKyxE11fPfG1fMZa1Eazj7TRPDxIaRUCN49_qsM1S331lCB67LltvGKWKHaGDSBMS9izlbEJEJ6_f9Y-ZBaPfk-kz1lcI8pSK66ctn-4N7l5ACIvmvB4xMU0XgJRtXmlazuswqnhy9r1ffPkCZbRMY1PRggTDOLMIfvy_inuS_dKG-9vC10vaWBWxDtvQ--WRe6ZJRU8vEDrl17zQsImedGIdVuIF4d8Re8N_ZDcKKsx1OkeJeNX6hbbN-530w7ZIPI5h-dDXawJypbW6LXOyLpN1HDIoyD_Mvy6MJf96ZBPmaTc8Z1l7cbKi2rdHyPkMrjMw1i8bG8JiGyoJDzUKZUnbgrLdYnb9KKPb7Cvb80--Llm_8Tktm_3bBhqDkmEXkX12SuC9zclad8Cus3p-IY7UgkXlhiiDoPkVOQJmpyzfJcYRsk9QgRY4SScT4Cot5Okjnde0bhUGJW30-DNJ92IR3KJBuiAepsYbPrUFg23EwILmaryOBs7yRKPYJIZihth4iddSuQ-JVCmg2IQrEkb0IgOzLvqfiOZpPPC4n1bFfDI5XCl-mvejL1TmEI4qlCXIjxtEtDmqc9SP9rEq8VSIDWcVDqaRRmhA5cicuMAo8HRSSYcseUvpD_oRUNn0fzCWPwTSiCd0jeD4TxJibSkMJdMlbVLxrlOoklRDw0Wb4WPa0weQ2PdQhGZU0u5W6_HiJdYdMWUaNVbDTikPao7hhC7ZQm5jHLSH3MCD7uwOlCgJmi8bh9KjxZ-U_YW2bYE_6AJF0dJ5xbVnVWXaPDjoNkHSDhXGRm1F30GKjlUtDaV6iBBQPM&encryption=mlkem768x25519plus.native.0rtt.1wZcnLa4tFbs8Hu210chlpE4xbn3qESjp67toIqe2Dg&pbk=REczqXcNegqpE3HROHXegD9jdgZpirMnJqcIXlv_tXs&headerType=none&fp=qq&type=tcp&sni=play-apps-features.googleusercontent.com&sid=0897#ProxyMtpVPN-245",
-      "protocol": "vless",
-      "host": "gr3ui.plasdomain.ir",
+      "host": "ar4nh.sannest.ir",
       "port": 443,
       "source": "https://t.me/s/vpnfail_v2ray",
       "parse_status": "parsed",
@@ -519,113 +585,47 @@
       "error": "[Errno -2] Name or service not known"
     },
     {
-      "uri": "trojan://humanity@185.220.100.168:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#ProxyMtpVPN-37",
-      "protocol": "trojan",
-      "host": "185.220.100.168",
-      "port": 443,
-      "source": "https://t.me/s/vpnfail_v2ray",
-      "parse_status": "parsed",
-      "latency_ms": 90.9,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "trojan://MITIVPN@openai.com:443?path=%2F---%40MiTiVPN%2F---%40MiTiVPN%2F---%40MiTiVPN%2F---%40MiTiVPN%2F---%40MiTiVPN%3DU-S-a&security=tls&alpn=h2%2Chttp%2F1.1&insecure=0&host=my-usjca-ohl.App-CloUd.IR&fp=chrome&type=ws&allowInsecure=0&sni=UsAba-bUbks.App-CloUd.IR#canfingV2rayNG-14",
-      "protocol": "trojan",
-      "host": "openai.com",
-      "port": 443,
-      "source": "https://t.me/s/vpnfail_v2ray",
-      "parse_status": "parsed",
-      "latency_ms": 19.1,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca23.myfymain.com:8880?mode=gun&security=&encryption=none&type=grpc#canfingV2rayNG-229",
+      "uri": "vless://588de4e1-8d67-4d19-9850-f9f0f1a6a22c@194.77.69.26:25172?encryption=mlkem768x25519plus.native.0rtt.100-111-1111.75-0-111.50-0-3333.LDVExY-G21nx-H6vfpVRZh5XH01WNIbVdqZPh2hEcUw&security=reality&type=xhttp&headerType=none&flow=xtls-rprx-vision&path=%2F&mode=auto&sni=amp-api-edge.apps.apple.com&fp=chrome&pbk=ydE4xHmpenLvz8PAHQGX-JSlMoCRE1Zkdmw8y-mzyA0&sid=5d592eb709967e19&pqv=6bdzV0o-8-mLjZRG_tnglDjlBtoTZLT1AcRCEsw-aTmgQuMS7aJ_Npl8qRbH8q8EB-5fLsO4t18_dzPy3VNRSXRfB4k2aZ5k8RabCX1yNtiuoI_h4nMck14as3K4rGjWq7UOQXrFEAZ6wpmyWh46vjKFiZS80hTnWCmbio8q3U6jmMMp8aC7mYWQbRTrBowDHDabPbXgZXmQXlmrKaRWHn1BJWRyV3C4UAsmkG5y-fTJoJrvX30olQvGcgdYJPhuD2TbAKxJBn_9nJKoV0-NDbf5KQGD-BFv2WQTatZpKh9l_Gkpf4OYxOTkdd7MZGp_IY6Osmg0H-x5E7t6v8dS8xNlJtFI2sm82_OVQtJiKgKNH2FoHmLjJc8JT3TfFY35pf9wXnTRsXv6Ofbkomf6Y-712qmF51yrQQgkMv7q50VDJSJU7Prv_YDNubaUQwbSH7GyDkjQfDDUO_EU-Jb4oIgFZK6B8w_EcgsP9Z7k1-Tsd7bzw0ywIKV7jVXysJn8UpGvJzLVkhduF2uwb5ewY9Qr_tsoXvIyfmLIX1G114BxXyHlY2KB-MNXmDpXz7m33vH-HGW721VL_e9zZ_I3S7wd-P6g0mvvqI5JC04bFuryuYIlxgBDxSouXYjCMOAYRHRxTGeiQYRkaP_t50YxO75Kbwr9B1P10g3q1OU422tr-jANEQYaslLSa4IBThJb1JuSy-Kx2itQVJkzDeJSWtqfGvanXkiywItkjkHbeLWNBKBhbH8-e5C-F4PAOaz2hUBFbm4aSH8UbF_E5x9iiSReMNAXP3nJjn02_GPZ5GH29dTsbA7ACBKbw9VppDdSrJ7zNSb-SswzNWNFPn-fTmH-tpi4ogbw1DfnttdKtvBXvjX7V1wi6JOLALLOkuOIkcSXF01MP7c0gOENDggRwmEBjZepkZ0yQtRvWJZBHd4krUIxWZOD7yvpCW64WY-FnmvMZZGYdUTIfGK1UCB9_O-2Mamt6jQx9J-QvNlA0mbM-FKHQp5971hR8pk2Y9fl8sYSP5VhUxYycwCEq38Ur7Lx8sTwjPLVNd4sCYg9Z8ZxCKCBu51BdKZ-j3gQ502Au0o25DA_GYtg6boeQFIo1tb7Mc8bzQ0fUEzJJ8iOrJoE63RhlRBghX-7mN_mA5xpseoNOTuoB_2Bgw1syv54ovH7gJPnpQAWiAnaBklnQdWn41CDfFrJtlz6WY3RqkVPCz8EXbrnH_aVCmGUbjEIPLxhvXlKGj5uoXEFDtJB9TW1639hnokweC3glysNfURQez6cRcH8s4EsJqVSLHJXDlB3SGW3bDlcJYg1wHppg0WYbBdchqmIv4K8afK_DPaBJOOEJ4C70Yq1RYz8yfQkQ8MDJFuGdXTmid25RBktv2627QBY4o-MrqRSourRSoA2fPq_6GV4JKzw01VllyatbM0IPWGTJ4zOKk6ZjTdiGmeujt5_IwZi9gaebAlF3SzoHjtGf8dAAw6bt2DdikcQLX1N0X3txl_s5t9HDxJc1vlNU2aWJkSIUIVT77XmAdGBf4PlQAasPVAhlpjRvF7cktJ2f54F82Hh41tikYzHw_9ozEwxuKdg3qH_ZCk9tRu6fz2m0Rt1vwWFPj4S2KNkElsrv9nB0ZdpOo9DvGSaASpK7GAXhLPf_BlvxiLKzjgo3itnjntDjE5wXwFte4ddFhnmCgj8H8o88KwAnkakVSTjdvrj3F9HDHe-A1Y7mh-HupKKDnLqlz2PphWz-Kxn_uGttLsfIDKdFGsoDzEoHYdlJgybJX6xHCedKuDuATPUD1Y17Ub3UwnOFqymvld4YUbkd-02f2qfvwN5OYPKHtZfCr10ceZhEIr_YJI2HC3an84EfK0SYSavnj6-NpIWekrleoAURJzPnAp5EEJl5EIQ4OwBvcUBtdvwGqGzJ6QFlqqfpFs_R-1ZoLhBAz3XswPmkprgjT9ti69wfo77YErwO0LS7j6EhuNmhxw-jKe1jyyLZPGyDleCLRt3akQYKtjwQ2AVC3nBI4uukY1MiufTxf7LIXAEsVYwmCxFXpFjeabDXXkXDjkgCf2ISJhsoWj9IirB502cLJAimv1roSXU6FbBpPlhFntm5fa36Ibl7TkXtuuMYiO3usi7wWrNkGtTdiHMvryqrj1GafSSqXZCPCEOcOu94afvMuhp1RA91YAk8LKONakKxII08rmTDknsLor-8OQV0Teu99kKF5mSv2V7ITJGrZccl1STcDdoyd2KsA9NW3DOCHLfK9oJ7Iimj9xrWKltm2MvFIQH7iL9fFt9smFq0NYeX5LVi-t5ct1FJPEopib9KOgTBTJs3tuk0Lr2FRPENM06PHqh3Bhx7y_OmxEWG625bYa5sh4JDthVN1Q1tD0guT-2q317pJG59g3Prt6cSyCI5HIQyIAPTc41-XRlCM5BRB4dsZ7uXg7PmtXbVwt8BBH3XSQGvDvYrJL436RA4TJpu_UtDka5_WLuLtqpAe9Esgb2dlKTtw_e75D0jk44SHgqmD8j1u7W9hB6X5KDTZ7O-J1u2ybxEYz6NgBv25CB1V98M3_2Pjun6YtomCxUw9OK_dgNDFOwQVPnBkXVHuRpQ4TonxA#filembad-177",
       "protocol": "vless",
-      "host": "sca23.myfymain.com",
+      "host": "194.77.69.26",
+      "port": 25172,
+      "source": "https://t.me/s/vpnfail_v2ray",
+      "parse_status": "parsed",
+      "latency_ms": 123.7,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "vless://d6b59299-2f48-4e9b-9130-b9e9cb5d0a51@31.76.4.75:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ch1.hat.onl&fp=firefox&pbk=V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc&sid=76132b3b39704c44&type=tcp&headerType=none#filembad-345",
+      "protocol": "vless",
+      "host": "31.76.4.75",
+      "port": 443,
+      "source": "https://t.me/s/vpnfail_v2ray",
+      "parse_status": "parsed",
+      "latency_ms": 121.2,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "trojan://MiTiVPN@151.101.56.101:443?path=%2FConfigvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------%26&security=tls&alpn=http%2F1.1&insecure=0&host=mitivpn---ss--s---mitivpn-5.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#ProxyMtpVPN-15",
+      "protocol": "trojan",
+      "host": "151.101.56.101",
+      "port": 443,
+      "source": "https://t.me/s/vpnfail_v2ray",
+      "parse_status": "parsed",
+      "latency_ms": 18.4,
+      "test_status": "passed_tcp",
+      "error": null
+    },
+    {
+      "uri": "vless://f373e5d8-8dff-44e6-a4d8-41abeb038b8a@cdn.devmixa.ir:8880?path=%2F%3Fed%3D2082&security=none&encryption=mlkem768x25519plus.random.0rtt.iZJwXenO31gj30xJyjEnDZ_qxA-iUdzbT1zdrr8Mbmo&host=rubika.ir.play.google.com.www.speedtest.net.chatgpt.com.openai.com.icloud.com.as.sw.irankrmanshah.ir.cdn.en.k8k8110.com&type=httpupgrade#ProxyMtpVPN-408",
+      "protocol": "vless",
+      "host": "cdn.devmixa.ir",
       "port": 8880,
       "source": "https://t.me/s/vpnfail_v2ray",
       "parse_status": "parsed",
-      "latency_ms": null,
-      "test_status": "dns_failed",
-      "error": "[Errno -2] Name or service not known"
-    },
-    {
-      "uri": "vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.110:8880?security=&encryption=none&type=grpc#canfingV2rayNG-225",
-      "protocol": "vless",
-      "host": "151.115.164.110",
-      "port": 8880,
-      "source": "https://t.me/s/vpnfail_v2ray",
-      "parse_status": "parsed",
-      "latency_ms": null,
-      "test_status": "timeout",
-      "error": null
-    },
-    {
-      "uri": "vless://b9964fbf-7ea3-4883-9a3b-cca80ba8602d@work20.kadamilab.ru:443?security=reality&encryption=none&pbk=LJsl2DgOqknCTlIUAJ9RIp5-2L5chl_sOycmWzmeWgY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=hb.ru-msk.vkcloud-storage.ru#filembad-291",
-      "protocol": "vless",
-      "host": "work20.kadamilab.ru",
-      "port": 443,
-      "source": "https://t.me/s/vpnfail_v2ray",
-      "parse_status": "parsed",
-      "latency_ms": 323.8,
+      "latency_ms": 262.0,
       "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "vless://24d49ddd-67c1-4821-b5b9-f12107366978@151.101.3.147:80?encryption=none&security=none&type=xhttp&host=baharishomalyour-name.global.ssl.fastly.net&path=%2Fapi&mode=auto&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22scMinPostsIntervalMs%22%3A%2230%22%2C%22xPaddingBytes%22%3A%220%22%7D#canfingV2rayNG-110",
-      "protocol": "vless",
-      "host": "151.101.3.147",
-      "port": 80,
-      "source": "https://t.me/s/vpnfail_v2ray",
-      "parse_status": "parsed",
-      "latency_ms": 5.5,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCaFlNa0JwakFqRTZpeFN3@20.164.211.25:443#ProxyMtpVPN-5",
-      "protocol": "ss",
-      "host": "20.164.211.25",
-      "port": 443,
-      "source": "https://t.me/s/vpnfail_v2ray",
-      "parse_status": "parsed",
-      "latency_ms": 216.2,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "vless://11f21602-47aa-42e2-9149-69120f2e6df6@31.56.184.132:8443?mode=gun&security=reality&encryption=none&authority=&pbk=bzbe7QdD633ew_Er1_YWEhuCEHWurmDpxpz3fRzXr0A&fp=firefox&type=grpc&serviceName=shiforgrpc&sni=cloudflare.com&sid=b4e3b0b55b8dc75b#filembad-86",
-      "protocol": "vless",
-      "host": "31.56.184.132",
-      "port": 8443,
-      "source": "https://t.me/s/vpnfail_v2ray",
-      "parse_status": "parsed",
-      "latency_ms": 93.2,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "vless://d6b59299-2f48-4e9b-9130-b9e9cb5d0a51@195.123.226.22:443?security=reality&encryption=none&pbk=V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=bg1.hat.onl&sid=76132b3b39704c44#filembad-337",
-      "protocol": "vless",
-      "host": "195.123.226.22",
-      "port": 443,
-      "source": "https://t.me/s/vpnfail_v2ray",
-      "parse_status": "parsed",
-      "latency_ms": 115.2,
-      "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "vless://8ecccb71-95ec-4a12-cbc5-ffc32c4d5ded@3.71.187.131:443?security=none&encryption=none&headerType=none&type=tcp#canfingV2rayNG-231",
-      "protocol": "vless",
-      "host": "3.71.187.131",
-      "port": 443,
-      "source": "https://t.me/s/vpnfail_v2ray",
-      "parse_status": "parsed",
-      "latency_ms": null,
-      "test_status": "timeout",
       "error": null
     },
     {
@@ -635,7 +635,7 @@
       "port": 8080,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 96.6,
+      "latency_ms": 131.8,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -646,7 +646,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 8.7,
+      "latency_ms": 15.9,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -657,7 +657,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 6.4,
+      "latency_ms": 16.3,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -668,7 +668,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 6.1,
+      "latency_ms": 6.3,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -679,7 +679,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 80.3,
+      "latency_ms": 113.3,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -690,7 +690,7 @@
       "port": 2086,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 38.8,
+      "latency_ms": 143.0,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -701,7 +701,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 258.4,
+      "latency_ms": 366.8,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -723,7 +723,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 5.7,
+      "latency_ms": 14.4,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -734,7 +734,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 5.6,
+      "latency_ms": 12.5,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -756,7 +756,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 6.4,
+      "latency_ms": 7.2,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -767,7 +767,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 6.0,
+      "latency_ms": 6.3,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -789,7 +789,7 @@
       "port": 8882,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 480.1,
+      "latency_ms": 593.5,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -800,7 +800,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 5.6,
+      "latency_ms": 15.7,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -811,7 +811,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 5.7,
+      "latency_ms": 5.8,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -822,7 +822,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 5.9,
+      "latency_ms": 13.6,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -833,7 +833,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 479.4,
+      "latency_ms": 312.8,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -855,7 +855,7 @@
       "port": 1080,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 86.3,
+      "latency_ms": 117.1,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -866,7 +866,7 @@
       "port": 1080,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 12.1,
+      "latency_ms": 34.7,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -877,7 +877,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 5.7,
+      "latency_ms": 15.0,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -888,7 +888,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 5.9,
+      "latency_ms": 6.8,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -899,7 +899,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 5.9,
+      "latency_ms": 6.6,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -910,7 +910,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 5.8,
+      "latency_ms": 6.7,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -921,7 +921,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 5.6,
+      "latency_ms": 16.1,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -943,7 +943,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 6.0,
+      "latency_ms": 8.0,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -954,7 +954,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 5.4,
+      "latency_ms": 8.2,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -965,7 +965,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 6.3,
+      "latency_ms": 6.0,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -976,7 +976,7 @@
       "port": 8880,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 39.4,
+      "latency_ms": 259.3,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -987,7 +987,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 359.1,
+      "latency_ms": 505.0,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -998,7 +998,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 5.9,
+      "latency_ms": 15.3,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1009,7 +1009,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 89.7,
+      "latency_ms": 138.0,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1031,7 +1031,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 357.2,
+      "latency_ms": 500.7,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1042,7 +1042,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 6.6,
+      "latency_ms": 7.5,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1064,7 +1064,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 98.9,
+      "latency_ms": 126.9,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1075,7 +1075,7 @@
       "port": 1080,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 132.0,
+      "latency_ms": 158.9,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1086,7 +1086,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 165.7,
+      "latency_ms": 372.1,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1097,7 +1097,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 5.7,
+      "latency_ms": 6.4,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1130,7 +1130,7 @@
       "port": 40443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 89.4,
+      "latency_ms": 128.7,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1152,7 +1152,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 87.2,
+      "latency_ms": 119.2,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1185,7 +1185,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 5.8,
+      "latency_ms": 6.5,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1196,9 +1196,9 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": null,
-      "test_status": "connection_refused",
-      "error": "[Errno 111] Connect call failed ('159.195.22.155', 443)"
+      "latency_ms": 116.7,
+      "test_status": "passed_tcp",
+      "error": null
     },
     {
       "uri": "vless://b2f6aa3a-2550-4a1c-b2c0-1c94b1207217@one-for-all.levikogjgfdd.ir:443?path=%2Fhdgrbws&security=tls&encryption=none&insecure=0&host=terazhediii.info&fp=chrome&type=ws&allowInsecure=0&sni=terazhediii.info#@v2rayng3",
@@ -1207,7 +1207,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 352.4,
+      "latency_ms": 414.0,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1218,7 +1218,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 458.8,
+      "latency_ms": 801.9,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1229,7 +1229,7 @@
       "port": 11431,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 499.0,
+      "latency_ms": 747.0,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1240,19 +1240,8 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 830.9,
+      "latency_ms": 923.5,
       "test_status": "passed_tcp",
-      "error": null
-    },
-    {
-      "uri": "vless://14b48651-3738-4926-bc09-4c04e87ff80b@static.lotussec.com:443?mode=stream-one&path=%2FJoin-JavidnamanIran-on-Telegram&security=tls&alpn=h2&encryption=none&insecure=0&host=static.lotussec.com&fp=firefox&type=xhttp&allowInsecure=0&sni=static.lotussec.com#@v2rayng3",
-      "protocol": "vless",
-      "host": "static.lotussec.com",
-      "port": 443,
-      "source": "https://t.me/s/V2rayNG3",
-      "parse_status": "parsed",
-      "latency_ms": null,
-      "test_status": "timeout",
       "error": null
     },
     {
@@ -1273,7 +1262,7 @@
       "port": 8080,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 98.8,
+      "latency_ms": 129.3,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1284,7 +1273,7 @@
       "port": 22324,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 91.8,
+      "latency_ms": 134.7,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1295,7 +1284,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 513.4,
+      "latency_ms": 652.9,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1339,7 +1328,7 @@
       "port": 448,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 117.5,
+      "latency_ms": 135.5,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1350,7 +1339,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 6.0,
+      "latency_ms": 18.7,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1361,7 +1350,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 88.9,
+      "latency_ms": 122.2,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1372,7 +1361,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 11.1,
+      "latency_ms": 34.4,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1383,7 +1372,7 @@
       "port": 993,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 84.6,
+      "latency_ms": 57.2,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1394,7 +1383,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 5.6,
+      "latency_ms": 7.0,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1405,7 +1394,7 @@
       "port": 8443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 90.0,
+      "latency_ms": 124.3,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1416,7 +1405,7 @@
       "port": 8880,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 405.9,
+      "latency_ms": 596.2,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1438,7 +1427,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 90.6,
+      "latency_ms": 117.3,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1460,7 +1449,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 92.9,
+      "latency_ms": 120.9,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1471,7 +1460,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 92.8,
+      "latency_ms": 120.7,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1482,7 +1471,7 @@
       "port": 40443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 80.9,
+      "latency_ms": 111.8,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1493,7 +1482,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 90.9,
+      "latency_ms": 128.0,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1537,7 +1526,7 @@
       "port": 8443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 94.0,
+      "latency_ms": 122.7,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1581,7 +1570,7 @@
       "port": 8388,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 91.9,
+      "latency_ms": 114.8,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1603,7 +1592,7 @@
       "port": 180,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 57.4,
+      "latency_ms": 41.4,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1636,7 +1625,7 @@
       "port": 8880,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 6.6,
+      "latency_ms": 14.0,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1647,7 +1636,7 @@
       "port": 2053,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 233.0,
+      "latency_ms": 442.5,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1691,7 +1680,7 @@
       "port": 2086,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 89.1,
+      "latency_ms": 125.9,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1713,7 +1702,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 111.3,
+      "latency_ms": 147.3,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1746,7 +1735,7 @@
       "port": 23576,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 89.8,
+      "latency_ms": 116.3,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1768,7 +1757,7 @@
       "port": 23576,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 89.2,
+      "latency_ms": 118.9,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1779,7 +1768,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 232.4,
+      "latency_ms": 250.5,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1790,7 +1779,7 @@
       "port": 2086,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 89.0,
+      "latency_ms": 125.5,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1801,7 +1790,7 @@
       "port": 80,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 164.8,
+      "latency_ms": 148.2,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1834,7 +1823,7 @@
       "port": 22324,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 89.8,
+      "latency_ms": 114.1,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1845,7 +1834,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 117.4,
+      "latency_ms": 140.7,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1867,7 +1856,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 5.6,
+      "latency_ms": 22.4,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1878,7 +1867,7 @@
       "port": 21527,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 98.4,
+      "latency_ms": 117.9,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1889,7 +1878,7 @@
       "port": 40443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 88.7,
+      "latency_ms": 117.9,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1900,7 +1889,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 113.0,
+      "latency_ms": 141.8,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1955,7 +1944,7 @@
       "port": 2087,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 148.0,
+      "latency_ms": 135.4,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1966,7 +1955,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 225.4,
+      "latency_ms": 198.6,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -1977,7 +1966,7 @@
       "port": 8388,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 90.0,
+      "latency_ms": 116.5,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -2010,7 +1999,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 303.6,
+      "latency_ms": 316.5,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -2054,7 +2043,7 @@
       "port": 18000,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 226.3,
+      "latency_ms": 199.4,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -2087,7 +2076,7 @@
       "port": 8443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 88.9,
+      "latency_ms": 127.1,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -2120,7 +2109,7 @@
       "port": 2087,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 89.5,
+      "latency_ms": 124.1,
       "test_status": "passed_tcp",
       "error": null
     },
@@ -2142,7 +2131,7 @@
       "port": 443,
       "source": "https://t.me/s/V2rayNG3",
       "parse_status": "parsed",
-      "latency_ms": 222.8,
+      "latency_ms": 292.9,
       "test_status": "passed_tcp",
       "error": null
     },
